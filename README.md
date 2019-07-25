@@ -23,12 +23,13 @@ After the server has run successfuly, enter a `stop` command
 This package is needed to setup the correct API routes for python
 Install maven:
 
-`sudo apt install maven`
+`sudo apt install maven`  
 
 Build the raspberry juice package:
 
 ```
 git clone https://github.com/zhuowei/RaspberryJuice
+cd RaspberryJuice
 mvn package
 ```
 
