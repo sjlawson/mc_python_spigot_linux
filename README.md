@@ -26,8 +26,11 @@ Install maven:
 `sudo apt install maven`
 
 Build the raspberry juice package:
-```git clone https://github.com/zhuowei/RaspberryJuice
-mvn package```
+
+```
+git clone https://github.com/zhuowei/RaspberryJuice
+mvn package
+```
 
 Copy the produced file to the Spigot plugins directory:
 `cp target/raspberryjuice-1.11.jar ~/mc_python/plugins/`
